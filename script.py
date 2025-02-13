@@ -1,4 +1,4 @@
-# This script can be used to explain and demonstrate fundamental data handling in Python using pandas and matplotlib.
+# %% This script can be used to explain and demonstrate fundamental data handling in Python using pandas and matplotlib.
 
 print ("Let's start!")
 
@@ -16,7 +16,7 @@ raw_data = pd.read_csv("sample_data.csv")
 df = raw_data # When we import data from a CSV file, it is automatically stored as a DataFrame (basically a two
               # dimensional table with index as rows and features as column)
 # OBSERVE: By default, when you load a CSV file into a pandas DataFrame, Python automatically assigns numbers (0, 1, 2, …)
-# as row indices 9uncomment section below to explain this better).
+# as row indices (uncomment section below to explain this better).
 
 # %% SECTION TO UNDERSTAND THE INDEX
 #
